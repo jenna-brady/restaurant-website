@@ -4,97 +4,103 @@
   <meta charset="utf-8">
   <title>Bits and Bites</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="/css/main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,300,200,600,400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<header>
-  <h1> <img src="images/placeholder-circle.svg" alt="" /> </h1>
+<header class="clearfix">
+  <h1> <img class="logo" src="images/placeholder-circle.svg" alt="" /> </h1>
   <nav>
-    <ul>
+    <input type="checkbox" class="nav-check" id="nav-check">
+    <label class="nav-label" for="nav-check">
+      <img  class="nav-open"src="images/nav-icon.svg" alt="Open Navigation">
+      <img  class="nav-close"src="images/nav-icon-close.svg" alt="Close Navigation">
+    </label>
+    <ul class="nav">
       <li><a href="#"> About us</a></li>
       <li><a href="#">Baked Goods</a></li>
-      <li><a href="#">Grilled</a></li>
+      <li><a href="#">Grilled Items</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
-  <div>
-    <img src="images/placeholder-16by9.svg" alt="" />
+  </nav>
+  </header>
+  <main>
+  <div class="holder">
+  <div class="banner-group">
+    <img class="banner-image-2" src="images/placeholder-16by9.svg" alt="" />
+    <img class="banner-image-1" src="images/placeholder-2by3.svg" alt="" />
+    <div class="banner-content">
     <h2>Need Brain Food?</h2>
-    <p>Simple, delicious food for the busy student.</p>
-    <a href="#">Menu</a>
+    <p class="call-to-action">Simple, delicious food for the busy student.</p>
+    <a class= "btn" href="#">Menu</a>
   </div>
+  </div>
+</div>
   <div>
-    <div>
+      <div class="card">
     <a href="#">
-      <img src="images/placeholder-4by3.svg" alt=""/>
-      <p>About us</p>
+      <img class="link-card-image" src="images/placeholder-4by3.svg" alt=""/>
+      <p class="link-card-text">About us</p>
     </a>
+     </div>
+     <div class="card">
     <a href="#">
-      <img src="images/placeholder-4by3.svg" alt=""/>
-      <p>Baked Goods</p>
+      <img class="link-card-image" src="images/placeholder-4by3.svg" alt=""/>
+      <p class="link-card-text">Baked Goods</p>
     </a>
-    <a href="#">
-      <img src="images/placeholder-4by3.svg" alt=""/>
-      <p>Grilled</p>
+  </div>
+  <div class="card">
+    <a  href="#">
+      <img class="link-card-image" src="images/placeholder-4by3.svg" alt=""/>
+      <p class="link-card-text">Grilled Items</p>
     </a>
+  </div>
 
-</header>
 
-<main>
+
+
   <section>
-    <img src="images/placeholder-2by3.svg" alt="" />
     <h2> About us</h2>
     <h3>We treat you like family</h3>
+    <p>Welcome to Bits ‘n Bytes, the place to go when you’re in need of a quick bite to eat. Located in T building at Algonquin college. We understand students are extremely busy and don’t have a lot of time to eat. Weather your looking for a quick snack or a wholesome meal. At Bits ‘n Bytes, we are very passionate about providing delicious food for our on the go students.</p>
+    <img class="about-us-image" src="images/placeholder-2by3.svg" alt="" />
   </section>
   <section>
     <h2> Baked Goods</h2>
     <h3>Always fresh and delicious</h3>
-    <ol>
-      <li>Bagles</li>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <li>Bear Claws</li>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <li>Cookies</li>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <li>Croissant</li>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <li>Muffin</li>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <li>Pretzel</li>
-    </ol>
+    <p>We provided a variety of delectable baked goods. Including muffins, cookies, bear claws, bagels, croissants, pretzels and many more. Each one is traditionally made from quality recipes with the finest ingredients. Made fresh everyday. At Bits ‘n Bytes we know when something is made fresh daily, it always tastes better.</p>
+      <img class="baked-goods-image" src="images/placeholder-2by3.svg" alt="" />
   </section>
-  <section>
-    <h2>Grilled</h2>
+  <section class="grilled">
+    <h2>Grilled Items</h2>
     <h3>Have you eaten today?</h3>
-    <div>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <p>blah</p>
+    <div >
+      <img class="icon"src="images/placeholder-circle.svg" alt="" />
+      <div class="icon-name">Wraps</div>
+      <p>Try our tasty, fresh wraps. Served on a whole grain tortilla wrap topped with BBQ chicken, basil, red onion, cheddar cheese and leaf lettuce. Made to order.</p>
     </div>
     <div>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <p>blah</p>
+      <img class="icon" src="images/placeholder-circle.svg" alt="" />
+      <div class="icon-name">Burgers</div>
+      <p>You'll love our ultimate Bits ‘n Bytes burger. Chargrilled to order and served on a toasted pretzel bun, topped with cheddar cheese, leaf lettuce, Roma tomatoes, mayo and pickles.</p>
     </div>
     <div>
-      <img src="images/placeholder-circle.svg" alt="" />
-      <p>blah</p>
+      <img class="icon" src="images/placeholder-circle.svg" alt="" />
+      <div class="icon-name">Paninis</div>
+      <p>Our Panini’s are grilled to perfection. Topped with pulled chicken, mozzarella, Roma tomatoes, chopped basil and mayo. Made to order. </p>
     </div>
   </section>
-  <section>
-    <h2>Contact</h2>
-    <p>blah</p>
-    <p>blah</p>
-    <img src="images/placeholder-circle.svg" alt="" />
-    <div>
-      <img src="images/placeholder-1by1.svg" alt="" />
-      <img src="images/placeholder-1by1.svg" alt="" />
-      <img src="images/placeholder-1by1.svg" alt="" />
-    </div>
 
 </main>
 <footer>
-  <small>blah</small>
-  <img src="images/placeholder-circle.svg" alt="" />
+  <img class="social-media"src="images/placeholder-circle.svg" alt="" />
+  <img class="social-media" src="images/placeholder-circle.svg" alt="" />
+  <img class="social-media" src="images/placeholder-circle.svg" alt="" />
+<small>Address: 1385 Woodroffe Avenue Ottawa, Ontario K2G 1V8</small>
+<small>Phone number: 613-727-4723</small>
+<small>Copyright© 2016 Bits ‘n Bytes.
+All reserved</small>
 </footer>
 </body>
 </html>
