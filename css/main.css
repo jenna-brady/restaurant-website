@@ -262,6 +262,10 @@ li.icon{
   list-style-type: none;
 }
 
+h4{
+  margin-left: 1em;
+}
+
 footer{
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #ccc;
