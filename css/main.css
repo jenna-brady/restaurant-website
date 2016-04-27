@@ -238,11 +238,11 @@ h3{
   margin: 1em;
 }
 
-.about-us-image-1{
+.about-us-image-1, .baked-goods-image-1{
   display: none;
 }
 
-.baked-goods-image{
+.baked-goods-image-2{
   width: 90%;
   margin: 1em;
 }
@@ -394,7 +394,7 @@ h2{
   font-size: 3.7rem;
 }
 h3{
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: .5em;
   margin-bottom: 0;
   text-align: left;
@@ -416,9 +416,8 @@ h3{
    overflow: hidden;
  }
 
-.about-us-image-2, .baked-goods-image{
+.about-us-image-2, .baked-goods-image-2{
   display: none;
-  float: left;
 
 }
 .about-us-image-1{
@@ -428,9 +427,23 @@ width: 40%;
 margin-top: 1em;
 margin-left: 1em;
 }
+.baked-goods-image-1{
+display: inline-block;;
+float: right;
+width: 40%;
+margin-top: 1em;
+margin-left: 1em;
+}
+
 .about-us-text{
   float: right;
   width: 55%;
+  margin-top: 1em;
+}
+.baked-goods-text{
+  float: left;
+  width: 55%;
+  margin-top: 1em;
 }
 .icon-img {
   width: 50%;
@@ -455,6 +468,9 @@ section > h2{
 footer{
   text-align: left;
 
+}
+.section-header{
+  text-align: left;
 }
 
 }
