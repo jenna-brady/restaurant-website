@@ -15,10 +15,6 @@ html {
   font-family: 'Kaushan Script', cursive;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -250,12 +246,14 @@ h3{
     margin: 1em;
 
 }
-.grilled{
-  text-align: center;
-}
+
 .icon{
 width: 80%;
 margin: 1em;
+}
+
+li.icon{
+  list-style-type: none;
 }
 
 footer{
@@ -281,6 +279,7 @@ small{
 section{
   border-top: .5px solid #333;
   margin-bottom: 1em;
+  margin-left: 1em;
 }
 
 section > h2{
@@ -305,7 +304,6 @@ h2{
 .call-to-action{
   font-size: 1.2rem;
 }
-
 
 
 .link-card-image {
@@ -472,5 +470,12 @@ footer{
     font-size: 1rem;
 
 
+}
+}
+@media only screen and (min-width: 90em) {
+
+html{
+  font-size: 130%;
+  line-height: 1.5;
 }
 }
