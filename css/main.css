@@ -23,12 +23,14 @@ html {
   box-sizing: inherit;
 }
 
+
 .clearfix::after {
   /* Generates a new element above */
   content: " ";
   display: table;
   clear: both;
 }
+
 
 body {
   margin: 0;
@@ -48,13 +50,13 @@ img{
   width: 100%;
 }
 
+
 h1 {
   display: inline-block;
   width: 25%;
   float: left;
   margin: 0;
   padding-left: .2em;
-
 }
 .logo{
   display: block;
@@ -168,6 +170,8 @@ h2{
 }
 .call-to-action{
   margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 p{
@@ -263,7 +267,7 @@ footer{
 
 .social-media{
   display: inline-block;
-  width: 10%;
+  width: 43px;
   margin:1em;
 
 }
@@ -274,44 +278,28 @@ small{
   text-align: left;
 }
 
-@media only screen and (min-width: 38em) {
-
-  html{
-    font-size: 110%;
-    line-height:1.4;
-  }
-
-.banner-image-1 {
-  display: none;
-}
-
-.banner-image-2 {
-  display: block;
-  width: 100%;
-  margin: 0;
+section{
+  border-top: .5px solid #333;
   margin-bottom: 1em;
 }
-.checkbox {
-  display: none;
-}
-.nav-check {
-  display: none;
-}
-.nav-close, .nav-open, .nav-label{
-  display: none;
-}
-.nav{
-  display: block;
-  position: static;
-  text-align: center;
-}
-.nav li{
-  display: inline-block;
-  width: 15%;
+
+section > h2{
+  margin-top: 1em;
 }
 
+.card-holder{
+  margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html{
+    font-size: 100%;
+    line-height:1.3;
+  }
+
 h2{
-  font-size: 3.7rem;
+  font-size: 2.3rem;
 }
 
 .call-to-action{
@@ -319,13 +307,14 @@ h2{
 }
 
 
-}
+
 .link-card-image {
   display: inline-block;
   margin-left: 0;
   margin-right: 0;
   }
-.btn{
+
+.btn {
   padding-right: 2em;
   padding-left:2em;
   font-size: .8em;
@@ -334,9 +323,153 @@ h2{
 .icon{
   display: inline-block;
 }
- h3{
-   font-size: 2rem;
+
+
+ .icon-name{
+   text-align: left;
  }
+
+.icon-group{
+  text-align: center;
+}
+
+.link-card-text{
+  font-size: 2rem;
+}
+
+}
+
+@media only screen and (min-width: 35em) {
+  html{
+    font-size: 110%;
+    line-height:1.4;
+  }
+  .checkbox {
+    display: none;
+  }
+  .nav-check {
+    display: none;
+  }
+  .nav-close, .nav-open, .nav-label{
+    display: none;
+  }
+  .nav{
+    display: block;
+    position: static;
+    text-align: center;
+  }
+  .nav li{
+    display: inline-block;
+    width: 15%;
+  }
+
+  .banner-image-1 {
+    display: none;
+  }
+
+  .banner-image-2 {
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+h2{
+  font-size: 3.7rem;
+}
+h3{
+  font-size: 3rem;
+  margin-left: .5em;
+  margin-bottom: 0;
+  text-align: left;
+}
+.card{
+  width: 30%;
+  display: inline-block;
+}
+
+.link-card-text{
+  font-size: 1rem;
+}
+
+.card-holder{
+    text-align: center;
+}
+ section{
+   text-align: left;
+ }
+.about-us-image, .baked-goods-image{
+  width: 40%;
+
+}
+.icon-img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section > h2{
+  text-align: left;
+  margin: .2em;
+
+}
+.icon-header{
+  text-align: center;
+    margin-bottom: 0;
+}
+
+footer{
+  text-align: left;
+
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+  html{
+    font-size: 120%;
+    line-height:1.5;
+  }
+  h2{
+    font-size: 6rem;
+  }
+
+
+  .icon-group{
+    display: inline-block;
+  }
+  section > h2{
+    text-align: left;
+    margin: .2em;
+  }
+  .icon{
+    display: inline-block;
+    width: 28%;
+  }
+
+  .icon-body{
+    text-align: left;
+  }
+
+
+
+  .icon-img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
+  li.icon {
+    vertical-align: text-top;
+    margin-bottom: 0;
+  }
+
+  .call-to-action{
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
 
 
 }
