@@ -150,6 +150,7 @@ margin-bottom: 1em;
   position: absolute;
   left: 50%;
   top: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   margin-top: .2rem;
@@ -205,6 +206,7 @@ top: 45%;
 margin-top: .2rem;
 margin-bottom: 0;
 position: absolute;
+-webkit-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 }
 
@@ -257,6 +259,7 @@ li.icon{
 }
 
 footer{
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #ccc;
   padding-bottom:1em;
   text-align: center;
@@ -280,6 +283,7 @@ section{
   border-top: .5px solid #333;
   margin-bottom: 1em;
   margin-left: 1em;
+  margin-right: 1em;
 }
 
 section > h2{
@@ -289,6 +293,12 @@ section > h2{
 .card-holder{
   margin-bottom: 1em;
 }
+ h4{
+   margin-bottom: 0;
+ }
+
+ .icon-body
+
 
 @media only screen and (min-width: 25em) {
 
@@ -468,9 +478,10 @@ footer{
 
   .btn {
     font-size: 1rem;
-
-
 }
+  h4{
+    margin-left: 1em;
+  }
 }
 @media only screen and (min-width: 90em) {
 
